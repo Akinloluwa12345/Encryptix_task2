@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scrollbar-width: 0em;
+  /* scrollbar-color: black; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hoadr {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.945) 20%,
+    rgb(175, 100, 15) 40%
+  );
+  color: white;
+  padding: 1rem;
+  font-size: 1em;
+}
+
+.sign {
+  margin-left: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  font-size: 1em;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.start {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.945) 70%,
+    rgb(175, 100, 15) 30%
+  );
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pica img {
+  margin-left: 43%;
+  width: 30%;
+  height: 100%;
+}
+
+.intro {
+  margin: 5% 5% 5%;
+}
+
+.intro h3 {
+  color: aliceblue;
+
+  font-size: 1rem;
+}
+
+.intro h1 {
+  color: rgb(175, 100, 15);
+
+  text-wrap: nowrap;
+  font-size: 2em;
+}
+
+.intro p {
+  color: aliceblue;
+
+  margin-bottom: 1.5rem;
+  font-size: 1.5em;
+}
+
+.intro button {
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgb(175, 100, 15);
+  font-size: 1em;
+  border-color: rgb(175, 100, 15);
+  padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+  border-radius: 0.2rem;
+}
+
+/* about me part */
+.Aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.918);
+  padding: 4rem;
+}
+
+.picg img {
+  margin-left: 30%;
+  width: 20%;
+  height: 100%;
+}
+
+.holdit {
+  position: relative;
+  border: 0.5rem solid rgb(175, 100, 15);
+  /* padding: 1rem;*/
+  width: 80%;
+  height: 26.185vh;
+  margin-left: 5rem;
+}
+
+/* .picg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border: 0.5rem solid rgba(201, 30, 30, 0.555);
+} */
+
+.picg img {
+  position: relative;
+  width: 100%;
+  height: 25.185vh;
+  border: 0.5rem solid rgba(27, 26, 26, 0.589);
+  margin-bottom: 10rem;
+  margin-left: 2rem;
+}
+
+.ttip {
+  margin-right: 16rem;
+  margin-left: 20rem;
+  word-wrap: inherit;
+  padding: 2rem;
+}
+
+.ttip h2 {
+  font-size: 1.5em;
+  color: aliceblue;
+
+  margin-bottom: 0.2rem;
+}
+
+.liner {
+  border-bottom: 0.3rem solid rgb(175, 100, 15);
+  width: 5.2vw;
+  margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.ttip p {
+  color: aliceblue;
+
+  font-size: 1em;
+  margin-bottom: 1rem;
+}
+
+.ttip h4 {
+  color: aliceblue;
+
+  font-size: 1em;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.tipyu {
+  display: flex;
+}
+
+.ho {
+  background-color: rgb(175, 100, 15);
+  color: white;
+  font-size: 1em;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  margin-right: 0.5rem;
+  border-radius: 0.2rem;
+  text-wrap: nowrap;
+}
+
+.down {
+  background-color: rgba(0, 0, 0, 0.945);
+  color: rgb(175, 100, 15);
+  font-size: 1em;
+  border-color: rgb(175, 100, 15);
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 0.2rem;
+  border: solid;
+  width: 7rem;
+}
+
+.down a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Projects Part */
+.Services {
+  background-color: rgba(0, 0, 0, 0.945);
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.holem {
+  margin-left: 5rem;
+}
+.jolt h2 {
+  font-size: 1.5em;
+  color: aliceblue;
+  margin-bottom: 0.2rem;
+}
+
+.line2 {
+  border-bottom: 0.3rem solid rgb(175, 100, 15);
+  width: 3.5vw;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.jolt p {
+  color: aliceblue;
+
+  font-size: 1em;
+  margin-bottom: 1.8rem;
+}
+
+.knowit {
+  display: flex;
+  flex-direction: row;
+}
+
+.ux {
+  background-color: rgb(21, 148, 187);
+  padding: 6rem 0.5rem 10rem 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.con {
+  word-wrap: inherit;
+}
+
+.con h2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.web {
+  background-color: rgb(175, 100, 15);
+  padding: 6rem 1rem 10rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.tent h2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+/* About Page */
+.abo {
+  background-color: rgba(10, 10, 10, 0.938);
+  color: white;
+}
+.sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.toop {
+  display: flex;
+  flex-direction: column;
+  /* gap: -5rem; */
+  /* margin: 0; */
+}
+.toll {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2rem;
+}
+.pico img {
+  /* margin-left: 43%; */
+  width: 100%;
+  height: 30%;
+  border-radius: 40%;
+  border: solid rgb(175, 100, 15);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skills li {
+  margin: 1rem;
+}
+
+.full-story {
+  background-color: rgba(58, 55, 55, 0.582);
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.full-story p {
+  line-height: 2rem;
+  font-size: 1.25em;
+}
+
+.contat {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 2em;
+}
+
+.contat a {
+  color: white;
+}
+
+/* Footer */
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.foot p {
+  padding: 1rem;
+  color: white;
+}
